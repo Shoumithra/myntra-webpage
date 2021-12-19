@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Myntra Store | Ecommerce</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+
+
+         <div class="header">
+        <div class="container">
+            <div class="navbar">
+        <div class="logo">
+          <img class="nav-logo__img" src="https://life.myntra.com/wp-content/themes/myntra_life/assets/img/Myntra-logo-horizontal.png" width="200" height="100"></div>
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <ul id="menuitems">
+                        <li><a href ="index.html">Home</a></li>
+                        <li><a href ="products.html">Products</a></li>
+                        <li><a href ="about.html">About</a></li>
+                        <li><a href ="contact.html">Contact</a></li>
+                        <li><a href ="account.html">Account</a></li>
+                    </ul>
+                </div>
+               
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+          </div>
+</div>
+</div>
+<main class="page-main">
+  <div class="contact-main">
+    <section class="contact-banner">
+      <h2><img src="https://life.myntra.com/wp-content/themes/myntra_life/assets/img/contact/contact-title.svg" alt=""/></h2>
+    </section>
+    <section class="contact-content">
+      <div class="container">
+        <div class="row">
+          <div class="colmd-6">
+            <div class="form-group">
+                <input type="text" name="your_name" id="your_name" required="required" />
+                <label>Your Name<sup>*</sup></label>
+              <div class="form-group">
+                <input type="email" name="your_email" id="your_email" required="required" />
+                <label>Your Email<sup>*</sup></label>
+              </div>
+              <div class="form-group">
+                <textarea  name="your_message" id="your_message" required="required"></textarea>
+                <label>Message<sup>*</sup></label>
+              </div>
+              <!-- add class '.success-btn' to show success form submit indication-->
+              <button class="shape-btn" href="javascript:void(0);" type="submit"><span>Submit</span></button>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Corporate Offices</h3>
+            <div class="contact-location">
+                      <div class="contact-location__box">
+                <h4>Bengaluru</h4>
+                <p>Buildings Alyssa, Begonia and Clover situated in Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Varthur Hobli, Bengaluru – 560103, India</p>
+              </div>
+      
+                                <div class="contact-location__box">
+                <h4>Gurugram</h4>
+                <p>Plot No. 82A, Sector 18, Gurugram, Haryana  - 122015</p>
+              </div>
+      
+                                <div class="contact-location__box">
+                <h4>Mumbai</h4>
+                <p>WeWork Spectrum, 307, Chincholi Bunder Road, Malad, Rajan Pada, Mindspace, Malad West, Mumbai, Maharashtra 400064</p>
+              </div>
+      
+                              </div>
+          </div>
+        </div>
+      </div>
+      
+                
+    </section>
+  </div>
+</main>
